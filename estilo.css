@@ -2,9 +2,6 @@ body{
     background-image: linear-gradient( #0c2461, #e67e22);
     color: #f6b93b;
 }
-section{
-    width: 100%;
-}
 .imagem-1{
     width: 300px;
     max-width: 300px;
@@ -35,12 +32,17 @@ article{
     width: 100vw;
 }
 .article-01{
+    max-width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
 .article-01 img{
     margin: auto;
     max-width: 450px;
+    height: auto;
+    display: block;
     padding: 32px;
     /* border-radius: 50%; */
 }
