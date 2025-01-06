@@ -73,7 +73,7 @@ article{
     .article-01{
         grid-template-columns: 1fr ;
     }
-    .article-01 img{
+    img{
         width: 100%;
         padding: 0;
     }
