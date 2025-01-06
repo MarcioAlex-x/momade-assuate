@@ -29,18 +29,16 @@ body{
     color: #fff;
 }
 article{
-    width: 100vw;
+    max-width: 100%;
 }
 .article-01{
-    max-width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr ;
-    overflow-x: hidden;
-    box-sizing: border-box;
+    padding: 0 16px;
 }
 .article-01 img{
     margin: auto;
-    max-width: 450px;
+    max-width: 400px;
     height: auto;
     display: block;
     padding: 32px;
@@ -50,9 +48,7 @@ article{
     padding-right: 40px;
 }
 .article-01 .content p{
-    margin: 0 auto;
-    padding: 0 15px;
-    box-sizing: border-box;
+    font-size: 20px;
 }
 .transformar{
     font-size: 20px;
