@@ -1,0 +1,85 @@
+body{
+    background-image: linear-gradient( #0c2461, #e67e22);
+    color: #f6b93b;
+}
+.imagem-1{
+    width: 300px;
+    max-width: 300px;
+}
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+.article-03 .chamada-final{
+    background-image: url(assets/criancasmomade-2.2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.titulo-2{
+    color: #fff;
+}
+/* .hero, .article-02, .article-03{
+    height: 100vh;
+} */
+.hero{
+    background-image: url(assets/criançasdemomade.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+article{
+    width: 100vw;
+}
+.article-01{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.article-01 img{
+    margin: auto;
+    width: 450px;
+    max-width: 450px;
+    padding: 32px;
+    /* border-radius: 50%; */
+}
+.article-01 .content{
+    padding-right: 40px;
+}
+.article-01 .content p{
+    font-size: 20px;
+}
+.transformar{
+    font-size: 20px;
+}
+.criancas-momade-1{
+    width: 400px;
+    max-width: 400px;
+    margin-inline: auto;
+}
+.article-03 .content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.article-03 .content iframe{
+    margin-inline: auto;
+    align-self: center;
+}
+.article-03 .content p{
+    color: white;
+    font-size: 20px;
+}
+@media screen and (max-width: 900px){
+    .article-01{
+        grid-template-columns: 1fr ;
+    }
+    .article-01 .content{
+        padding: 16px;
+    }
+    .article-03 .content{
+        grid-template-columns: 1fr;
+    }
+    .article-03 .content iframe{
+        margin-bottom: 16px;
+    }
+}
