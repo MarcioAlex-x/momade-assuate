@@ -2,6 +2,9 @@ body{
     background-image: linear-gradient( #0c2461, #e67e22);
     color: #f6b93b;
 }
+section{
+    width: 100%;
+}
 .imagem-1{
     width: 300px;
     max-width: 300px;
