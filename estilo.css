@@ -50,7 +50,9 @@ article{
     padding-right: 40px;
 }
 .article-01 .content p{
-    font-size: 20px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
 }
 .transformar{
     font-size: 20px;
