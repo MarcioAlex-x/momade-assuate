@@ -32,7 +32,6 @@ article{
     width: 100vw;
 }
 .article-01{
-    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr ;
 }
